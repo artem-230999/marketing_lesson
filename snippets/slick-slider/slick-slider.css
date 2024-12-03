@@ -1,0 +1,17 @@
+/* slider */
+.slick-dots {
+  margin-top: 46px;
+  display: flex;
+  column-gap: 20px;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform .3s ease;
+}
+.slick-dots button:hover {
+  transform: scale(1.2);
+}

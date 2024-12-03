@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+  margin: 0;
+}
+
+ul,
+ol,
+input, textarea, button {
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, textarea, label, button {
+  border: none;
+}
+
+input, textarea, button, select, label
+h1, h2, h3, h4, h5, h6 {
+  font: inherit;
+}
