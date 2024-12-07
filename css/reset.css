@@ -42,6 +42,7 @@ button {
 }
 
 input, textarea, label, button {
+  background-color: transparent;
   border: none;
 }
 
